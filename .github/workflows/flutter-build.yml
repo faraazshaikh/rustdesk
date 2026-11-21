@@ -114,7 +114,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Install Syft
@@ -204,7 +204,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Restore bridge files
@@ -627,7 +627,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Install LLVM and Clang
@@ -844,7 +844,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Install flutter
@@ -979,7 +979,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Import the codesign cert
@@ -1545,7 +1545,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Check JNI natives are in ffi.FFI
@@ -1838,7 +1838,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Install flutter
@@ -2011,7 +2011,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Set Swap Space
@@ -2348,7 +2348,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Set Swap Space
@@ -2690,7 +2690,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Modify vcpkg.json for armv7
@@ -2913,7 +2913,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Download Binary
@@ -2995,7 +2995,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Download Binary
@@ -3063,7 +3063,7 @@ jobs:
       - name: Apply IntelisenseDesk branding
         shell: bash
         env:
-          SERVER_KEY: 9jo2uz556zvdggDjc2E6ipboeH1YsjOJSbx4Qfl5zx0=
+          SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: deploy/apply-branding.sh
 
       - name: Prepare env
